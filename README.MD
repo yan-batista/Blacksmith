@@ -26,7 +26,7 @@ Before using Blacksmith, ensure you have the following installed:
     ```
 2. **Download**
 
-    You can download the executable on the [releases](https://github.com/yan-batista/Blacksmith/issues) page.
+    You can download the executable on the [releases](https://github.com/yan-batista/Blacksmith/releases) page.
 
 ## Usage
 
@@ -38,7 +38,7 @@ python blacksmith.py -n <project-name>
 ```
 
 ### Using the Executable
-If you downloaded the executable from the [releases](https://github.com/yan-batista/Blacksmith/issues) page, you can either open the terminal in the executable folder or add the executable to your PATH variables.
+If you downloaded the executable from the [releases](https://github.com/yan-batista/Blacksmith/releases) page, you can either open the terminal in the executable folder or add the executable to your PATH variables.
 
 #### Adding to PATH on Windows:
 1. Open the System Properties window.
