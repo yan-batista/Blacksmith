@@ -24,10 +24,34 @@ Before using Blacksmith, ensure you have the following installed:
     git clone https://github.com/your-username/blacksmith.git
     cd blacksmith
     ```
+2. **Download**
+
+    You can download the executable on the [releases](https://github.com/yan-batista/Blacksmith/issues) page.
 
 ## Usage
 
-To create a new React TypeScript project with TailwindCSS, ESLint, and Prettier, run the Blacksmith script:
+### Using the Script
+If you cloned the repository, to create a new React TypeScript project with TailwindCSS, ESLint, and Prettier, run the Blacksmith script:
 
 ```sh
 python blacksmith.py -n <project-name>
+```
+
+### Using the Executable
+If you downloaded the executable from the [releases](https://github.com/yan-batista/Blacksmith/issues) page, you can either open the terminal in the executable folder or add the executable to your PATH variables.
+
+#### Adding to PATH on Windows:
+1. Open the System Properties window.
+2. Click on "Advanced system settings".
+3. Click on the "Environment Variables" button.
+4. In the Environment Variables window, select the Path variable in the System Variables section and click "Edit".
+5. Add a new line with the Blacksmith executable folder path.
+6. Click "OK" on all windows to save your changes.
+
+Then, you can run:
+```sh
+blacksmith -n <project-name>
+```
+
+## Feedback
+If you encounter any issues or have suggestions for improvements, please open an [issue](https://github.com/yan-batista/Blacksmith/issues) on GitHub.
